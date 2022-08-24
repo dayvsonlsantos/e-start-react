@@ -4,6 +4,7 @@ import SideBar from "./components/SideBar";
 import "./App.css";
 import Componente from "./atividades/Componente";
 import Contador from "./atividades/Contador";
+import Mensagem from "./atividades/Mensagem";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path="/ola-mundo" element={<OlaMundo/>}/>
               <Route path="/componente" element={<Componente/>}/>
               <Route path="/contador" element={<Contador/>}/>
+              <Route path="/mensagem" element={<Mensagem/>}/>
             </Routes>
         </BrowserRouter>
       </div>

@@ -23,6 +23,9 @@ h2{
 ul{
     padding-left: 6rem;
 }
+li{
+    margin-bottom: 0.8rem;
+}
 
 a{
     font-size: 1rem;
