@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.background{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #95B871;
+}
+
+.loginCard{
+    width: 25rem;
+    height: 20rem;
+    margin-top: 10rem;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputLogin{
+    border: none;
+    width: 72%;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttonLogin{
+    border: none;
+    background-color: #76AB65;
+    color: #ffffff;
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.spanLogin{
+    color: #76AB65;
+    font-size: 0.8rem;
+    text-align: center;
+}

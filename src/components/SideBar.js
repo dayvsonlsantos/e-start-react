@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./SideBar.module.css";
 
 function SideBar (){
@@ -7,15 +8,15 @@ function SideBar (){
             <h1>Atividades</h1>
             
             <h2>Introdução à React e virtual DOM</h2>
-                <ul>
-                    <li><a href="/ola-mundo">Olá Mundo</a></li>
-                    <li><a href="/componente">Componente</a></li>
-                    <li><a href="/contador">Contador</a></li>
-                    <li><a href="/mensagem">Mensagem</a></li>
-                    <li><a href="/carta">Carta</a></li>
-                    <li><a href="/contador-somar-e-subtrair">Somar e Subtrair</a></li>
-                    
-                </ul>
+            <ul>
+                <li><Link to="/ola-mundo">Olá Mundo</Link></li>
+                <li><Link to="/componente">Componente</Link></li>
+                <li><Link to="/contador">Contador</Link></li>
+                <li><Link to="/mensagem">Mensagem</Link></li>
+                <li><Link to="/carta">Carta</Link></li>
+                <li><Link to="/contador-somar-e-subtrair">Somar e Subtrair</Link></li>
+                <li><Link to="/login">Login</Link></li>                 
+            </ul>
         </div>
     )
 }

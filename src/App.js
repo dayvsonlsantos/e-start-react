@@ -7,15 +7,16 @@ import Contador from "./atividades/Contador";
 import Mensagem from "./atividades/Mensagem";
 import Carta from "./atividades/Carta";
 import ContadorSomarSub from "./atividades/ContadorSomarSub";
+import Login from "./atividades/Login";
 
 function App() {
   return (
     <main>
-      <div className="sidebar">
-        <SideBar/>
-      </div>
-      <div className="conteudo">
+      
         <BrowserRouter>
+            <div className="sidebar">
+              <SideBar/>
+            </div>
             <Routes>
               <Route path="/ola-mundo" element={<OlaMundo/>}/>
               <Route path="/componente" element={<Componente/>}/>
@@ -23,9 +24,10 @@ function App() {
               <Route path="/mensagem" element={<Mensagem/>}/>
               <Route path="/carta" element={<Carta nome={"Joana"} local={"Minas Gerais"}/>}/>
               <Route path="/contador-somar-e-subtrair" element={<ContadorSomarSub/>}/>
+              <Route path="/login" element={<Login/>}/>
             </Routes>
         </BrowserRouter>
-      </div>
+      
     </main>
   );
 }

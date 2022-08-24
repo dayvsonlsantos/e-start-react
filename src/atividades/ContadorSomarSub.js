@@ -14,11 +14,13 @@ function ContadorSomarSub (){
     }
 
     return(
-        <div className={style.contadorSomarSub}>
-            <h1 className={style.h1contador}>Contador =&#62; {count}</h1>
-            <div className={style.butoes}>
-                <button className={style.verde} onClick={somar}>Somar</button>
-                <button className={style.azul} onClick={subtrair}>Subtrair</button>
+        <div className={style.background}>
+            <div className={style.contadorSomarSub}>
+                <h1 className={style.h1contador}>Contador =&#62; {count}</h1>
+                <div className={style.butoes}>
+                    <button className={style.verde} onClick={somar}>Somar</button>
+                    <button className={style.azul} onClick={subtrair}>Subtrair</button>
+                </div>
             </div>
         </div>
     )

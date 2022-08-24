@@ -14,12 +14,14 @@ function Contador (){
     }
 
     return(
-        <div className={style.contador}>
-            <h1>Contador</h1>
-            <h2>Você clicou {count} vezes</h2>
-            <div className={style.butoes}>
-                <button onClick={decrementar}>Decremento</button>
-                <button onClick={incrementar}>Incremento</button>
+        <div className={style.background}>
+            <div className={style.contador}>
+                <h1>Contador</h1>
+                <h2>Você clicou {count} vezes</h2>
+                <div className={style.butoes}>
+                    <button onClick={decrementar}>Decremento</button>
+                    <button onClick={incrementar}>Incremento</button>
+                </div>
             </div>
         </div>
     )
