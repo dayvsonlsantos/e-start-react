@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.carta{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}

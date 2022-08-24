@@ -12,6 +12,9 @@ function SideBar (){
                     <li><a href="/componente">Componente</a></li>
                     <li><a href="/contador">Contador</a></li>
                     <li><a href="/mensagem">Mensagem</a></li>
+                    <li><a href="/carta">Carta</a></li>
+                    <li><a href="/contador-somar-e-subtrair">Somar e Subtrair</a></li>
+                    
                 </ul>
         </div>
     )

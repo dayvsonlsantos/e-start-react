@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.contadorSomarSub{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.butoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.verde{
+    background-color: #446B3C;
+    border: none;
+    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: white;
+}
+
+.azul{
+    background-color: #272C79;
+    border: none;
+    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+    color: white;
+}
+
+.h1contador{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #808080;
+}
