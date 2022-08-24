@@ -5,7 +5,8 @@ div.sideBar{
     height: 100vh;
     padding-top: 4rem;
     background-color: #7a71ee;
-    color: white
+    color: white;
+    margin-right: 5rem;
 }
 
 h1{
