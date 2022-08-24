@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./Componente.module.css";
 
-function OlaMundo (){
+function Componente (){
     return(
         <div className={style.componente}>
             <div className={style.inside}>
@@ -12,4 +12,4 @@ function OlaMundo (){
     )
 }
 
-export default OlaMundo;
+export default Componente;

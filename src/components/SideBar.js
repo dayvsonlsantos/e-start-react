@@ -10,6 +10,7 @@ function SideBar (){
                 <ul>
                     <li><a href="/ola-mundo">Ola Mundo</a></li>
                     <li><a href="/componente">Componente</a></li>
+                    <li><a href="/contador">Contador</a></li>
                 </ul>
         </div>
     )
