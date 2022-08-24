@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.olaMundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: auto;
+    width: 55rem;
+}
+
+img{
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 1rem;
+}

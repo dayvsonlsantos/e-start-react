@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.conteudo {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+div.sidebar{
+    margin-right: 5rem;
+}
