@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.background{
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLeft{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #EFF1F6;
+}
+
+.containerRight{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #6252A2;
+}
+
+.cadCard{
+    width: 80%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputLogin{
+    border: none;
+    width: 82%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.buttonLogin{
+    border: none;
+    background-color: #E6E7EF;
+    border-radius: 6px;
+    color: #9a9a9a;
+    width: 90%;
+    padding: 1rem;
+    margin-top: 0.6rem;
+    font-size: 0.85srem;
+    font-weight: 500;
+}
+
+.spancad{
+    color: #505050;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.h2cad{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+.cadheader{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.logoreact{
+    width: 40%;
+}
+
+.h1react{
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    color: #ffffff;
+}

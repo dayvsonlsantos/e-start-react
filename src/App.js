@@ -15,6 +15,7 @@ import PessoasCadastradas from "./atividades/PessoasCadastradas";
 import AtvRouter from "./atividades/AtvRouter";
 import Musica from "./atividades/AtvRouterPages/Musica";
 import Cidade from "./atividades/AtvRouterPages/Cidade";
+import Cadastro from "./atividades/Cadastro";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
               <Route path="/router" element={<AtvRouter/>}/>
               <Route path="/musica" element={<Musica/>}/>
               <Route path="/cidade" element={<Cidade/>}/>
+              <Route path="/cadastro" element={<Cadastro/>}/>
             </Routes>
         </BrowserRouter>
       
