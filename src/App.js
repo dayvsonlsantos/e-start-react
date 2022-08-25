@@ -16,6 +16,7 @@ import AtvRouter from "./atividades/AtvRouter";
 import Musica from "./atividades/AtvRouterPages/Musica";
 import Cidade from "./atividades/AtvRouterPages/Cidade";
 import Cadastro from "./atividades/Cadastro";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <SideBar/>
             </div>
             <Routes>
+              <Route path="/" element={<Home/>}/>
               <Route path="/ola-mundo" element={<OlaMundo/>}/>
               <Route path="/componente" element={<Componente/>}/>
               <Route path="/contador" element={<Contador/>}/>

@@ -9,6 +9,7 @@ function SideBar (){
             
             <h2>Introdução à React e virtual DOM</h2>
             <ul>
+                <li><Link to="/">Início</Link></li>
                 <li><Link to="/ola-mundo">Olá Mundo</Link></li>
                 <li><Link to="/componente">Componente</Link></li>
                 <li><Link to="/contador">Contador</Link></li>
@@ -21,7 +22,7 @@ function SideBar (){
                 <li><Link to="/github">Github</Link></li>  
                 <li><Link to="/pessoas-cadastradas">Pessoas Cadastradas</Link></li>
                 <li><Link to="/router">Router</Link></li>  
-                <li><Link to="/cadastro">Cadastro</Link></li>   
+                <li><Link to="/cadastro">Cadastro</Link></li>        
             </ul>
         </div>
     )
