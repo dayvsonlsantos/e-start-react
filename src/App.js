@@ -11,6 +11,7 @@ import Login from "./atividades/Login";
 import MemberLogin from "./atividades/MemberLogin";
 import Navbar from "./atividades/Navbar";
 import Github from "./atividades/Github";
+import PessoasCadastradas from "./atividades/PessoasCadastradas";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path="/member-login" element={<MemberLogin/>}/>
               <Route path="/navbar" element={<Navbar/>}/>
               <Route path="/github" element={<Github/>}/>
+              <Route path="/pessoas-cadastradas" element={<PessoasCadastradas/>}/>
             </Routes>
         </BrowserRouter>
       
