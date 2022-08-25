@@ -9,6 +9,7 @@ import Carta from "./atividades/Carta";
 import ContadorSomarSub from "./atividades/ContadorSomarSub";
 import Login from "./atividades/Login";
 import MemberLogin from "./atividades/MemberLogin";
+import Navbar from "./atividades/Navbar";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/contador-somar-e-subtrair" element={<ContadorSomarSub/>}/>
               <Route path="/login" element={<Login/>}/>
               <Route path="/member-login" element={<MemberLogin/>}/>
+              <Route path="/navbar" element={<Navbar/>}/>
               
             </Routes>
         </BrowserRouter>

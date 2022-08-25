@@ -17,6 +17,7 @@ function SideBar (){
                 <li><Link to="/contador-somar-e-subtrair">Somar e Subtrair</Link></li>
                 <li><Link to="/login">Login</Link></li>         
                 <li><Link to="/member-login">Login - Membro</Link></li>     
+                <li><Link to="/navbar">Navbar e Footer</Link></li>   
             </ul>
         </div>
     )
