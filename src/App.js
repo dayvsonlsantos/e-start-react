@@ -17,6 +17,7 @@ import Musica from "./atividades/AtvRouterPages/Musica";
 import Cidade from "./atividades/AtvRouterPages/Cidade";
 import Cadastro from "./atividades/Cadastro";
 import Home from "./components/Home";
+import Galeria from "./atividades/Galeria";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route path="/carta" element={<Carta nome={"Joana"} local={"Minas Gerais"}/>}/>
               <Route path="/contador-somar-e-subtrair" element={<ContadorSomarSub/>}/>
               <Route path="/login" element={<Login/>}/>
+              <Route path="/galeria" element={<Galeria/>}/>
               <Route path="/member-login" element={<MemberLogin/>}/>
               <Route path="/navbar" element={<Navbar/>}/>
               <Route path="/github" element={<Github/>}/>

@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+.background{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+}
+
+.navContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    background-color: #9BC9F5;
+    color: #1d1d1d;
+    margin: 0;
+    padding: 0;
+}
+
+.navItems{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.navItems:hover{
+    background-color: #ffffff;
+    color: #7a71ee;
+    border-radius: 12px;
+}
+
+.navspan{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.footer, .galeriaImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #424242;
+    color: white;
+    width: 100%;
+    height: 10rem;
+}
+
+.navh2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    padding: 0;
+}
+
+.navh2Galeria{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 0;
+}
+
+.navp{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #9e9e9e;
+    margin: 0;
+    padding: 0;
+}
+
+.navpGaleria{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #d5d5d5;
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 25rem;
+    background-color: #121212;
+}
+
+.asideCard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 25%;
+    height: 20rem;
+    background-color: #424242;
+}
+
+.h3Card{
+    font-size: 0.8rem;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+.pCard{
+    font-size: 0.6rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    text-indent: 0;
+    width: 100%;
+}
+
+.btnCard{
+    font-size: 0.6rem;
+    color: #9BC9F5;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-top: 0.5rem;
+}
+
+.imgCard{
+    width: 100%;
+    border-radius: 0px;
+    margin: 0;
+    
+}
+
+.conteudoCard{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 60%;
+}
