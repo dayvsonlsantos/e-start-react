@@ -8,8 +8,6 @@ function PessoasCadastradas(){
 
     useEffect(() => {
         axios.get("https://randomuser.me/api/?results=8").then((res) => {
-            let data = res.data.results;
-            //console.log(JSON.stringify(data));
             setCadastros(res.data.results);
         })
     }, [])

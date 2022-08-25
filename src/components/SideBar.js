@@ -19,7 +19,8 @@ function SideBar (){
                 <li><Link to="/member-login">Login - Membro</Link></li>     
                 <li><Link to="/navbar">Navbar e Footer</Link></li>   
                 <li><Link to="/github">Github</Link></li>  
-                <li><Link to="/pessoas-cadastradas">Pessoas Cadastradas</Link></li>   
+                <li><Link to="/pessoas-cadastradas">Pessoas Cadastradas</Link></li>
+                <li><Link to="/router">Router</Link></li>   
             </ul>
         </div>
     )

@@ -12,6 +12,9 @@ import MemberLogin from "./atividades/MemberLogin";
 import Navbar from "./atividades/Navbar";
 import Github from "./atividades/Github";
 import PessoasCadastradas from "./atividades/PessoasCadastradas";
+import AtvRouter from "./atividades/AtvRouter";
+import Musica from "./atividades/AtvRouterPages/Musica";
+import Cidade from "./atividades/AtvRouterPages/Cidade";
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
               <Route path="/navbar" element={<Navbar/>}/>
               <Route path="/github" element={<Github/>}/>
               <Route path="/pessoas-cadastradas" element={<PessoasCadastradas/>}/>
+              <Route path="/router" element={<AtvRouter/>}/>
+              <Route path="/musica" element={<Musica/>}/>
+              <Route path="/cidade" element={<Cidade/>}/>
             </Routes>
         </BrowserRouter>
       
