@@ -10,6 +10,7 @@ import ContadorSomarSub from "./atividades/ContadorSomarSub";
 import Login from "./atividades/Login";
 import MemberLogin from "./atividades/MemberLogin";
 import Navbar from "./atividades/Navbar";
+import Github from "./atividades/Github";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
               <Route path="/login" element={<Login/>}/>
               <Route path="/member-login" element={<MemberLogin/>}/>
               <Route path="/navbar" element={<Navbar/>}/>
-              
+              <Route path="/github" element={<Github/>}/>
             </Routes>
         </BrowserRouter>
       

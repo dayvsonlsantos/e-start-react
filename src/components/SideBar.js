@@ -18,6 +18,7 @@ function SideBar (){
                 <li><Link to="/login">Login</Link></li>         
                 <li><Link to="/member-login">Login - Membro</Link></li>     
                 <li><Link to="/navbar">Navbar e Footer</Link></li>   
+                <li><Link to="/github">Github</Link></li>   
             </ul>
         </div>
     )
