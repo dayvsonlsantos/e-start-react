@@ -8,6 +8,7 @@ import Mensagem from "./atividades/Mensagem";
 import Carta from "./atividades/Carta";
 import ContadorSomarSub from "./atividades/ContadorSomarSub";
 import Login from "./atividades/Login";
+import MemberLogin from "./atividades/MemberLogin";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
               <Route path="/carta" element={<Carta nome={"Joana"} local={"Minas Gerais"}/>}/>
               <Route path="/contador-somar-e-subtrair" element={<ContadorSomarSub/>}/>
               <Route path="/login" element={<Login/>}/>
+              <Route path="/member-login" element={<MemberLogin/>}/>
+              
             </Routes>
         </BrowserRouter>
       
